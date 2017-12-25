@@ -12,7 +12,8 @@ function sort (players) {
 		stripped.scores.push(Object.values(players)[i].score);
 		sorted.push([]);
 
-		//stripped = stripped.sort;
+		stripped.scores = stripped.scores.sort((a, b) => a - b).reverse();
+		stripped.names = stripped.names.sort().reverse();
 
 		let num = numeral(stripped.scores[i]).format('0.[0]a');
 		let maxscore = stripped.scores[0] == 0 ? 1 : stripped.scores[0];
