@@ -18,7 +18,7 @@ function sort (players) {
 		sorted[i].push(`${stripped.names[i]} - ${num}`);
 		sorted[i].push(stripped.scores[i] / maxscore);
 	}
-	return players
+	return sorted;
 }
 
 module.exports.sort = sort;
