@@ -3,6 +3,6 @@
   "description": "A sorter for scoreboards for the official cDiep client to digest easily.",
   "version": "0.0.1",
   "dependencies": {
-    "numeral": "^2.0.6"
+    "numeral": "^2.0.0"
   }
 }
