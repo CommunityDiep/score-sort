@@ -1,14 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "cdiep-score-sort",
   "description": "A sorter for scoreboards for the official cDiep client to digest easily.",
   "version": "0.0.1",
   "dependencies": {
     "numeral": "^2.0.6"
   }
-=======
-	"name": "cdiep-score-sort",
-	"description": "A sorter for scoreboards for the official cDiep client to digest easily.",
-	"version": "0.0.1"
->>>>>>> a1f5208058666131429f2b1b4ce948a67455d35d
 }
