@@ -1,5 +1,6 @@
 const numeral = require('numeral');
 
+// players would be an object of player objects (key is ID, value is an object containing score and username)
 function sort (players) {
 	let sorted = [];
 	let stripped = {
