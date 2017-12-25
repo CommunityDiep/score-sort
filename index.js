@@ -1,28 +1,7 @@
-const numeral = require('numeral');
 
-// players would be an object of player objects (key is ID, value is an object containing score and username)
-function sort (players) {
-	let sorted = [];
-	let stripped = {
-		scores: [],
-		names: []
-	};
-
-	for (var i in Object.values(players)) {
-		stripped.names.push(Object.values(players)[i].name);
-		stripped.scores.push(Object.values(players)[i].score);
-		sorted.push([]);
-
-		stripped.scores = stripped.scores.sort((a, b) => a - b).reverse();
-		stripped.names = stripped.names.sort().reverse();
-
-		let num = numeral(stripped.scores[i]).format('0.[0]a');
-		let maxscore = stripped.scores[0] == 0 ? 1 : stripped.scores[0];
-
-		sorted[i].push(`${stripped.names[i]} - ${num}`);
-		sorted[i].push(stripped.scores[i] / maxscore);
-	}
-	return sorted;
+let sort = (p)=>{
+    let arr = Object.values(p).sort( (a,b)=>b.score-a.score)
+    return arr.map(y=> ({...y, percentage: y.score/(arr[0].score == 0 ? 1 : arr[0].score)}), [1]).map(j=>[`${j.name} - ${j.score}`, j.percentage])
 }
 
 module.exports.sort = sort;
