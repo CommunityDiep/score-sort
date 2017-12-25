@@ -7,6 +7,6 @@
     "url": "https://github.com/CommunityDiep/score-sort/issues"
   },
   "dependencies": {
-    "numeral": "^2.0.0"
+    "numeral": ">=2.0.0"
   }
 }
