@@ -6,14 +6,3 @@ let sort = (p)=>{
 }
 
 module.exports.sort = sort;
-
-console.log(sort({
-	'hi': {
-		score: 1250,
-		name: 'Hello 1'
-	},
-	'hi2': {
-		score: 2500,
-		name: 'Hello 2'
-	}
-}))
