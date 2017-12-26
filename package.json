@@ -1,7 +1,7 @@
 {
   "name": "cdiep-score-sort",
   "description": "A sorter for scoreboards for the official cDiep client to digest easily.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "github:CommunityDiep/score-sort",
   "bugs": {
     "url": "https://github.com/CommunityDiep/score-sort/issues"
