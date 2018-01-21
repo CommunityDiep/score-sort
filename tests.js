@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const scoreSort = require('./index.js');
+const sort = require('./index.js').sort;
 
 describe('sort', function() {
   it('should return an array');
