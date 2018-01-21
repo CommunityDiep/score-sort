@@ -35,4 +35,13 @@ describe('sort', function() {
     assert.lengthOf(lengthIsOne, 1);
     assert.lengthOf(lengthIsTwo, 2);
   });
+
+  it('should return arrays with lengths of 2', function() {
+    assert.lengthOf(sort({
+      test: {
+        score: 1,
+        name: "hi"
+      }
+    })[0], 2);
+  });
 });
