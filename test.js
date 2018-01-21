@@ -5,7 +5,7 @@ const sort = require('./index.js').sort;
 
 describe('sort', function() {
   it('should return an array', function() {
-    assert.typeOf(Array.issort({test:{score:1,name:"hi"}}), 'array');
+    assert.typeOf(sort({test:{score:1,name:"hi"}}), 'array');
   });
 
   it('should have as many arrays in the array as keys in the first argument', function() {
