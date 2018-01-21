@@ -13,7 +13,7 @@ describe('sort', function() {
     }), 'array');
   });
 
-  it('should have as many arrays in the array as keys in the first argument', function() {
+  it('should have an equal amount of items output as keys in input object', function() {
     let lengthIsOne = sort({
       test: {
         score: 1337,
