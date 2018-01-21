@@ -8,7 +8,7 @@ describe('sort', function() {
     assert.typeOf(sort({
       test: {
         score: 1,
-        name: "hi"}
+        name: "hi"
       }
     }), 'array');
   });
