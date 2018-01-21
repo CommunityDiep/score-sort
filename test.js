@@ -32,7 +32,7 @@ describe('sort', function() {
       }
     });
 
-    assert.equal(1, lengthIsOne.length);
-    assert.equal(2, lengthIsTwo.length);
+    assert.lengthOf(lengthIsOne, 1);
+    assert.lengthOf(lengthIsTwo, 2);
   });
 });
