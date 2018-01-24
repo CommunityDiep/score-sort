@@ -6,6 +6,7 @@
   "bugs": {
     "url": "https://github.com/CommunityDiep/score-sort/issues"
   },
+  "main": "index.js",
   "dependencies": {
     "numeral": ">=2.0.0"
   },
