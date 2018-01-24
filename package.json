@@ -7,6 +7,9 @@
     "url": "https://github.com/CommunityDiep/score-sort/issues"
   },
   "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
   "dependencies": {
     "numeral": ">=2.0.0"
   },
