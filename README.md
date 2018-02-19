@@ -1,4 +1,4 @@
-# score-sort
+# score-sort [![Build Status](https://travis-ci.org/CommunityDiep/score-sort.svg?branch=master)](https://travis-ci.org/CommunityDiep/score-sort)
 
 A sorter for scoreboards for the official cDiep client to digest easily.
 
